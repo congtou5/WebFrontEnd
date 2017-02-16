@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>个人作品集</title>
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="portfolio.css">
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">HHC</a>
+			<ul class="nav nav-navbar nav-pills navbar-right">
+				<li class="active">
+					<a href="#introduction"><span class="glyphicon glyphicon-user"></span> 个人简介</a>
+				</li>
+				<li>
+					<a href="#portfolio"><span class="glyphicon glyphicon-book"></span> 作品集</a>
+				</li>
+				<li>
+					<a href="#contact"><span class="glyphicon glyphicon-envelope"></span> 联系方式</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<section class="pageOne" id="introduction">
+		<div class="container">
+			<div class="rows">
+				<div class="col-md-8">
+					<div class=" text-center">
+						<h1>黄华聪</h1>
+						<p>正在自学前端，掌握技能如下：</p>
+					</div>
+					
+					<ul>
+						<li>基础语言及框架有：HTML5、CSS3、jQuery、BootStrap</li>
+						<li>开发工具：Git、SublimeText3</li>
+						<li>后端语言：Python</li>
+						<li>其他能力：Ajax、Flex布局</li>
+					</ul>					
+				</div>
+				<div class="col-md-4">
+					<img src="img/myself.jpg">
+				</div>				
+			</div>
+		</div>
+	</section>
+
+	<section class="pageTwo text-center" id="portfolio">
+		<div class="paddingTop">
+			<h1>个人作品集</h1>			
+		</div>
+		<div class="container text-center">
+			<div class="rows">
+				<div class="col-md-6">			
+					<p data-height="450" data-theme-id="0" data-slug-hash="JExOVL" data-default-tab="result" data-user="fifteenclev" data-embed-version="2" data-pen-title="A JavaScript Calculator" class="codepen">See the Pen <a href="http://codepen.io/fifteenclev/pen/JExOVL/">A JavaScript Calculator</a> by fifteenclev (<a href="http://codepen.io/fifteenclev">@fifteenclev</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+		            <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+		            <a href="http://codepen.io/fifteenclev/pen/JExOVL"><h2>简易计算器</h2></a>
+				</div>
+				<div class="col-md-6">
+					<p data-height="450" data-theme-id="0" data-slug-hash="ZBJWBZ" data-default-tab="result" data-user="fifteenclev" data-embed-version="2" data-pen-title="A Tribute Page" class="codepen">See the Pen <a href="http://codepen.io/fifteenclev/pen/ZBJWBZ/">A Tribute Page</a> by fifteenclev (<a href="http://codepen.io/fifteenclev">@fifteenclev</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+		            <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+		            <a href="http://codepen.io/fifteenclev/pen/ZBJWBZ"><h2>哀悼页</h2></a>
+				</div>
+			</div>
+		</div>		
+	</section>
+	<section class="pageThree text-center" id="contact">
+		<div class="myBlock">
+			<h1>FifteenClev</h1>
+			<h3>仰望星空，脚踏实地</h3>
+		</div>
+		<div class="btnList">
+			<a href="https://github.com/congtou5" class="btn btn-info"><i class="fa fa-github" id="githubIcon" aria-hidden="true"></i> Github</a>
+			<a href="http://codepen.io/fifteenclev/" class="btn btn-info"><i class="fa fa-codepen" id="codeopenIcon" aria-hidden="true"></i></i> Codeopen</a>
+			<a href="https://www.freecodecamp.com/congtou5" class="btn btn-info"><i class="fa fa-free-code-camp" id="freecodecampIcon" aria-hidden="true"></i> FreeCodeCamp</a>
+		</div>		
+	</section>
+	<!-- <div id="toTop">
+		<i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i>
+	</div> -->
+	<footer>
+		<div class="text-center pageEnd">
+			<h2>Contact Me <a href="mailto:congtou15@gmail.com">congtou15@gmail.com</a></h2>
+			<p id="copyright">Copyright © FifteenClev 2017. All Rights Reserved</p>
+		</div>
+	</footer>
+	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('ul.nav li a').click(function(){
+				$(this).parent().addClass("active")
+					   .siblings(".active").removeClass("active");
+			});						
+		})		
+	</script>	
+</body>
+</html>
