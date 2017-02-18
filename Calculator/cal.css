@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	background: #AFEEEE
+}
+
+#calculator {
+	position: relative;
+	top: 80px;	
+	width: 380px;
+	height: 360px;
+	margin: 0 auto;
+	background: #FFFFF0;
+	border: 2px solid #808080;
+	border-radius: 35px;
+	box-shadow: 8px 8px 8px #666;
+}
+
+.title {
+	margin: 10px 0; 
+	text-align: center;
+}
+
+#showBox {
+	border: 1px solid #808080;
+	background: #F8F8F8;
+	width: 340px;
+	margin: 0 auto;
+	border-radius: 5px;	
+}
+
+#history {
+	height: 16px;
+	line-height: 16px;
+}
+
+#result {
+	height: 32px;
+	text-align: right;
+	font-weight: bold;	
+	line-height: 32px;
+}
+
+#answer {
+	font-size: 20px;
+}
+
+#buttons {
+	width:360px;
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+button {
+	width: 50px;
+	height: 40px;	
+	margin: 0 5px 15px 10px;
+	border-radius: 5px;
+	background: #3a3a3a;
+	color: white;
+	box-shadow: 0 3px 0 0 #222121,
+	            inset -1px -3px 10px 1px #515151;
+}
+
+button:active {
+	transform: translate(0,3px);
+	box-shadow: none;		
+}
+
+button:focus {
+	outline: none; /*remove border from css custom-styled button in Chrome*/
+}
+
+#zero,#equal {
+	width: 123px;
+}
+
+#delete,#all-clear {
+	background: #a72d45;
+	box-shadow: 0 3px 0 0 #671c2a;
+}	
+	

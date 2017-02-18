@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Calculator</title>
+	<link rel="stylesheet" type="text/css" href="cal.css">
+</head>
+<body>
+	<div class="container">
+		<div id="calculator">
+			<div class="title">
+				<h2>SIMPLE CALCULATOR</h2>
+			</div>			
+			
+			<!-- showBox -->
+			<div id="showBox">
+				<div id="history">
+					<p>0</p>
+				</div>
+				<div id="result">
+					<p id="answer">0</p>
+				</div>
+			</div>
+			<!-- end showBox -->		
+			
+			<!-- buttons -->
+			<div id="buttons">
+				<button type="button" value="7">7</button>
+				<button type="button" value="8">8</button>
+				<button type="button" value="9">9</button>
+				<button type="button" id="delete" value="DEL">DEL</button>
+				<button type="button" id="all-clear" value="AC">AC</button>
+				<button type="button" value="4">4</button>
+				<button type="button" value="5">5</button>
+				<button type="button" value="6">6</button>
+				<button type="button" value="*">x</button>
+				<button type="button" value="/">&divide;</button>
+				<button type="button" value="1">1</button>
+				<button type="button" value="2">2</button>
+				<button type="button" value="3">3</button>
+				<button type="button" value="+">+</button>
+				<button type="button" value="-">-</button>
+				<button type="button" value=".">.</button>
+				<button type="button" id="zero" value="0">0</button>
+				<button type="button" id="equal" value="=">=</button>
+			</div>
+			<!-- end buttons -->			
+		</div>		
+	</div>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="calculate.js"></script>
+</body>
+</html>
